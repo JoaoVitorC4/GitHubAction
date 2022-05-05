@@ -2,6 +2,6 @@ name: "Teste de Aula"
 on: [push]
 jobs:
   Explore-GitHub-Action:
-  runs-on: unbuntu-latest
+  runs-on: ubuntu-latest
   steps:
 - run: echo "Meu primeiro teste do sistema no github action"
