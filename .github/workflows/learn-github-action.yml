@@ -3,5 +3,5 @@ on: [push]
 jobs:
   Explore-GitHub-Action:
     runs-on: ubuntu-latest
-      steps:
-      - run: echo "Meu primeiro teste do sistema no github action"
+    steps:
+    - run: echo "Meu primeiro teste do sistema no github action"
