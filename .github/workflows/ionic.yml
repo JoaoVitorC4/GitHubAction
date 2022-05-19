@@ -1,7 +1,7 @@
 name: Instala Ionic
 on: [push]
 jobs:
-  Ionic
+  ionic:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v3
