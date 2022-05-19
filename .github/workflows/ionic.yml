@@ -1,0 +1,13 @@
+name: Instala Ionic
+on: [push]
+jobs:
+  Ionic
+  runs-on: ubuntu-latest
+  steps:
+    - uses: action/checkout@v3
+    - uses: action/setup-node@v3
+      with:
+        node-version: '16'
+    - run: npm install -g @ionic/cli
+    - run: ionic --version
+  
